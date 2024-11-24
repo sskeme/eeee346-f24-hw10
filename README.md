@@ -68,7 +68,7 @@ g++ -o main *.cpp *.h
 * Line 2: data count (or the number of nodes)
 * Line 3: data to be inserted into the BST
 
-Examples:
+Input/Output examples:
 
 ```
 #inputs
