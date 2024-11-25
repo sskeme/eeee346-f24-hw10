@@ -57,12 +57,12 @@ void BinarySearchTree::traverse() {
 
   while ((curr != nullptr) || !stack.empty()) {
     while (curr != nullptr) {
-      stack.push(curr);
+      stack.push(curr); // push(): inserts a new element at the top of the stack
       curr = curr->getLeft();
     }
 
-    curr = stack.top();
-    stack.pop();
+    curr = stack.top(); // top(): returns a reference to the top element in the stack
+    stack.pop(); // pop(): removes the element on top of the stack
 
     cout << curr->getData() << " ";
 
